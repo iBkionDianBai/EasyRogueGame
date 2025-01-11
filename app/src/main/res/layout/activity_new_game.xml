@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/newGame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_new_game"
+    tools:context=".Activity.NewGameActivity">
+
+    <Button
+        android:id="@+id/diffTutorial"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/button_bg"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="Tutorial"
+        android:textSize="30sp"
+        android:fontFamily="@font/medievalsharp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/diffNormal"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/button_bg"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="Normal"
+        android:textSize="30sp"
+        android:fontFamily="@font/medievalsharp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>

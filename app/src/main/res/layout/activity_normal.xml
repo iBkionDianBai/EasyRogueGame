@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/normal_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.android.roguegame.ui.NormalSurfaceView
+        android:id="@+id/normal_surface_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    <!-- 左上角的菜单按钮 -->
+    <Button
+        android:id="@+id/menuButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:padding="10dp" />
+
+    <include
+        layout="@layout/menu_overlay"/>
+</FrameLayout>
